@@ -1,0 +1,9 @@
+{
+  "name": "ablation_no_world_model",
+  "world_model": {
+    "enabled": false
+  },
+  "reward": {
+    "uncertainty_gain": 0.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 20260908,
+  "control_dt_s": 0.016666666666666666,
+  "camera_rate_hz": 15,
+  "maximum_velocity_rad_s": 0.3,
+  "maximum_acceleration_rad_s2": 0.5,
+  "maximum_jerk_rad_s3": 5.0,
+  "reaction_design_force_N": 0.35,
+  "reaction_design_torque_Nm": 0.15,
+  "reaction_samples_per_segment": 21,
+  "camera_joint_step_rad": 0.12,
+  "module_mass_kg": 0.25042,
+  "docking_cap_radius_m": 0.02,
+  "maximum_observation_age_s": 0.25,
+  "mapping_mode": "full frame at rest, native-pixel ROI during motion, continuous TSDF updates",
+  "notes": "Reaction limits are sampled design targets, not continuous guarantees. Known circular magnetic docking interface, horizontal cap. Measured CAD geometry is simulation safety authority; not hardware certification."
+}

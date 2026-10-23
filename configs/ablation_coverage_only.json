@@ -1,0 +1,11 @@
+{
+  "name": "ablation_coverage_only",
+  "reward": {
+    "coverage_gain": 1.0,
+    "reconstruction_gain": 0.0,
+    "uncertainty_gain": 0.0,
+    "novel_view": 0.0,
+    "visibility": 0.0,
+    "flow_convergence": 0.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 20260906,
+  "control_dt_s": 0.016666666666666666,
+  "camera_rate_hz": 15,
+  "joint_speed_rad_s": 0.3,
+  "joint_increment_rad": 0.005,
+  "collision_margin_m": 0.003,
+  "magnet_capture_distance_m": 0.008,
+  "observation_max_age_s": 0.25,
+  "depth_noise_std_m": 0.001,
+  "table_top_z_m": 0.76,
+  "parts": [
+    {"name": "bolt", "kind": "bolt", "position": [0.58, -0.50, 0.762], "color": [0.85, 0.12, 0.10], "destination": [0.34, -0.51, 0.762]},
+    {"name": "washer", "kind": "washer", "position": [0.58, -0.36, 0.762], "color": [0.10, 0.75, 0.18], "destination": [0.34, -0.40, 0.762]},
+    {"name": "bracket", "kind": "bracket", "position": [0.58, -0.22, 0.762], "color": [0.12, 0.25, 0.90], "destination": [0.34, -0.29, 0.762]}
+  ]
+}

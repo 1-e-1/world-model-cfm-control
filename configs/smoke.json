@@ -1,0 +1,36 @@
+{
+  "name": "smoke",
+  "cfm": {
+    "num_points": 64,
+    "observed_points": 32,
+    "image_size": 32,
+    "dim": 64,
+    "heads": 4,
+    "blocks": 2,
+    "ffn_dim": 128,
+    "image_tokens": 4,
+    "point_tokens": 4,
+    "pose_tokens": 2,
+    "state_tokens": 2,
+    "ode_steps": 2,
+    "batch_size": 2,
+    "sequence_length": 2
+  },
+  "cfm_loss": {
+    "terminal_steps": 2,
+    "match_points": 32,
+    "sinkhorn_iterations": 5
+  },
+  "world_model": {
+    "latent_dim": 32,
+    "hidden_dim": 64,
+    "recurrent_dim": 32,
+    "sequence_length": 2,
+    "batch_size": 4
+  },
+  "ppo": {
+    "num_envs": 2,
+    "rollout_steps": 4,
+    "max_iterations": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "zbot_sequential_active_vision",
+  "data_dir": "data",
+  "checkpoint_dir": "checkpoints",
+  "log_dir": "logs"
+}
+

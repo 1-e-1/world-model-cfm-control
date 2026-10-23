@@ -1,0 +1,499 @@
+{
+  "date": "2026-10-24",
+  "owner": "1-e-1",
+  "method": "Conditional flow matching, learned world models and active-vision control research",
+  "files": [
+    {
+      "path": "codex_zbot/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/__init__.py",
+      "sha256_original": "8c45c6e669745714576be2344371afd5b47edfd18c7e34b4c405f1b52c0ed6a8",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/cfm/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/cfm/__init__.py",
+      "sha256_original": "22db8f3e0dde83f2776246669581bf3ff73f477039729c6709d61f7c758c3fac",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/cfm/losses.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/cfm/losses.py",
+      "sha256_original": "b7a335c4cc2b33e8c773c8359c851fe6658b602b4a9032bf957296c92f2fabdb",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/cfm/model.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/cfm/model.py",
+      "sha256_original": "ea233ff39f69f31dbc48ccf5342237667544f1dfa53bda309267bd6dd38d8b6d",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/cfm/rollout.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/cfm/rollout.py",
+      "sha256_original": "b602f47de8b8d093a45a7791dd3e54d784aadd314c3154790960936d1fbfb6f9",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/config.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/config.py",
+      "sha256_original": "d7413e61afc1250dec0c97e058c2e667ab92f0f2fa0ed7574b284d51f82f119f",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/data/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/data/__init__.py",
+      "sha256_original": "9c06a5e62162f745afd16e801387cec70318cd0acda2b635583c24175c5aa6a1",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/data/sequential_dataset.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/data/sequential_dataset.py",
+      "sha256_original": "82b8ebc7033629a6b9dad6879d9f87131578ade0eeccbd934c2934cb4960e910",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/perception/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/perception/__init__.py",
+      "sha256_original": "137337282627eb687d17545dc94d7ddd21f3d325699b1f2b82bbbe827e355645",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/perception/pointcloud.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/perception/pointcloud.py",
+      "sha256_original": "0ec2a2b972139f9d228162b34a8dc025a4fd42fbe241695741fa2bd49749d907",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/policy/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/policy/__init__.py",
+      "sha256_original": "c960052beb733861c75c7978d8ed5309941a318cfc89a946dbd71c368f891d27",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/policy/features.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/policy/features.py",
+      "sha256_original": "c304efc04217ac054025d8c969e33b44cd25e1c979773e974e9d563447ae0b4a",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/policy/features_v4.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/policy/features_v4.py",
+      "sha256_original": "fa711e50df0cbafd5b6858028a18ac2a6b0663ca122868913e1e1654dd20ffbf",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/policy/rewards.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/policy/rewards.py",
+      "sha256_original": "70f7293c994fb88a2ca9d1e22b015dcffbed6f10ccf31471f849928a9cf18ef4",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/policy/rewards_v4.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/policy/rewards_v4.py",
+      "sha256_original": "c051ab59ad94603fe15265ea49e119a84bd00f46e7daa6fc849b3ab5b03a559c",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/policy/rsl_rl_cfg.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/policy/rsl_rl_cfg.py",
+      "sha256_original": "65d3faad11bf9240b77e67e75ad9687573e18237ad9cf2bee74317a3fde94c0f",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/tasks/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/tasks/__init__.py",
+      "sha256_original": "ecf6d241e18fe6275f75cb87a46d5c8d2289b39c00ba9a64f8bbbe971c37e3b8",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/tasks/active_vision_env.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/tasks/active_vision_env.py",
+      "sha256_original": "eddbcd4eb495c496ce71525d6341f0735ef0822eee02e252b7d2fb8a95bb381a",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/tasks/active_vision_v4_env.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/tasks/active_vision_v4_env.py",
+      "sha256_original": "df41fd9e7798a843eda7df8c7d374d001309846177201e807799928d5ebb6c47",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/tasks/layout.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/tasks/layout.py",
+      "sha256_original": "ad15a5c842b154aad66ffb57cd0f72857cb2d963b707e304736538c038870ca8",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/tasks/scene.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/tasks/scene.py",
+      "sha256_original": "fcb88aabcf31b214c265b3ad5c314c31b6ef6ae1e0b33987a7d6211dccbbdf84",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/tasks/scene_constants.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/tasks/scene_constants.py",
+      "sha256_original": "8d4384395cdd8321586abed1d8a09e7e17bb747ca7223984be10ecba4a840383",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/tasks/shape_geometry.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/tasks/shape_geometry.py",
+      "sha256_original": "289a8da4b646187cd858a93f1e7884215268cdac9bf89c180e13868956bbd5ab",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/utils/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/utils/__init__.py",
+      "sha256_original": "9793f0bcab4321b5156ad18435a4fc585c46c5bca5b30e2f59bcda52e14b7c77",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/utils/checkpoint.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/utils/checkpoint.py",
+      "sha256_original": "6cafe064ac80af62f3325ecad82ccefff90e3641a91a48db747275f255eae068",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/utils/metrics.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/utils/metrics.py",
+      "sha256_original": "72b2d0146d4a536f6b7920342e2ceff7d7189f2600ec99c97838e524114a120c",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/utils/seed.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/utils/seed.py",
+      "sha256_original": "18cd4d4bc7839c5889d15ad9dd310dce0dcd9036d4356cc3db6c0f7aae68634c",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/world_model/__init__.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/world_model/__init__.py",
+      "sha256_original": "af13f9f86f38f68fe4aab2b043a74287da5b64c7d54b1209e099ae0c0e90d7bc",
+      "role": "primary"
+    },
+    {
+      "path": "codex_zbot/world_model/model.py",
+      "source_project": "lun",
+      "source_path": "codex_zbot/world_model/model.py",
+      "sha256_original": "cfee8169d8a50fa9ebd03938e03f9b07d21348c23fb2103784614ac5d8359d0f",
+      "role": "primary"
+    },
+    {
+      "path": "configs/ablation_coverage_only.json",
+      "source_project": "lun",
+      "source_path": "configs/ablation_coverage_only.json",
+      "sha256_original": "ad54a7060974dfce5338cb863967d725a33a4303875f48670903b85f5ade3bb9",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/ablation_first_order.json",
+      "source_project": "lun",
+      "source_path": "configs/ablation_first_order.json",
+      "sha256_original": "23ae4af40041aeac0155e375c0507b0de3bef5d8551b2b533bda94b69847dccc",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/ablation_manifest.example.json",
+      "source_project": "lun",
+      "source_path": "configs/ablation_manifest.example.json",
+      "sha256_original": "324ffe6d5bc113ce692165398a800cbc567a6238beb583131cab76365790f60d",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/ablation_no_world_model.json",
+      "source_project": "lun",
+      "source_path": "configs/ablation_no_world_model.json",
+      "sha256_original": "21e313c43c2182d9669292e3bc059099682b72a549b2ddfaf55ef74a6b73482b",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/astronaut_delivery.json",
+      "source_project": "lun",
+      "source_path": "configs/astronaut_delivery.json",
+      "sha256_original": "f4a5eec5a4c57f7c20a40f673e6127c08a96b392649acaa463a60db708232269",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/base.json",
+      "source_project": "lun",
+      "source_path": "configs/base.json",
+      "sha256_original": "6e00a0388f9bbc828e7a72809f9a2acb569e20a8e5ebd5dc827cdc47fb2c2169",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/camera_512_f110_integer_pixels.json",
+      "source_project": "lun",
+      "source_path": "configs/camera_512_f110_integer_pixels.json",
+      "sha256_original": "807ef35a5a87b21ed77b25af9c46cbe77f658dcafea4c790c5f5cc2d6fc2b198",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/cooperative_delivery.json",
+      "source_project": "lun",
+      "source_path": "configs/cooperative_delivery.json",
+      "sha256_original": "502ce06ece604e4edda7720ea1741016c53bc5e6d4888432e810219c8662da36",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/d435i.json",
+      "source_project": "lun",
+      "source_path": "configs/d435i.json",
+      "sha256_original": "bbd98c9bb32841bd35886e1e2c9afeb9c5e2108c1e534bfaba971163e1b0e078",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/env_smoke.json",
+      "source_project": "lun",
+      "source_path": "configs/env_smoke.json",
+      "sha256_original": "da96dc3e8c126ad493c85344ba6add479d902460e3b567b9d70a0165a44fc23c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/formal_v1.json",
+      "source_project": "lun",
+      "source_path": "configs/formal_v1.json",
+      "sha256_original": "50b891ee488daf49b56c3e68d917403b4e2e1a398b47a06fe6ac5ccba6c6a509",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/formal_v4.json",
+      "source_project": "lun",
+      "source_path": "configs/formal_v4.json",
+      "sha256_original": "e04e0e6748167b2d0b593388237439e6c2a621d4813e3c933a7835cf1af7354c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/online_coordination.json",
+      "source_project": "lun",
+      "source_path": "configs/online_coordination.json",
+      "sha256_original": "1c92c17cb66f8031dc74b7125ef829f28a59719a8e5ff61135d66b45e0eff996",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/retained_models.json",
+      "source_project": "lun",
+      "source_path": "configs/retained_models.json",
+      "sha256_original": "ecab846eeb3f8d7dd6e272c300b2b1b62bb908d3d9b72331babaf0db47cdcb72",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/rgbd_classical_expansion_protocol.json",
+      "source_project": "lun",
+      "source_path": "configs/rgbd_classical_expansion_protocol.json",
+      "sha256_original": "efd2bef94df8c0fe4ddd7976f1acc0dcadb47884660a4fcbf38e15eceb6085b7",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/rgbd_holdout_protocol.json",
+      "source_project": "lun",
+      "source_path": "configs/rgbd_holdout_protocol.json",
+      "sha256_original": "cee1eabd11d84a19042c65760f8ef7e01e5f441787c32134ed9e620928a51ffa",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "configs/smoke.json",
+      "source_project": "lun",
+      "source_path": "configs/smoke.json",
+      "sha256_original": "d26a321a674f207d84e21cdaa00bfda40693fec239c22483108b1e5d30ab3163",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "piaoyi_model/__init__.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/__init__.py",
+      "sha256_original": "8b5b59178794b4cdc490ed56eb9377497a09a0eb4b4d6cb12e6b3938415dd10f",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/attention.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/attention.py",
+      "sha256_original": "e05b568af8d81e19aa84b2748552873fece6ed6514c3ba659cf99723eaaeab23",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/belief_v4.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/belief_v4.py",
+      "sha256_original": "5b8a4b5f000b829c71cb4a127c8ed657b22534d6c6e7f04027870b6769c8d45c",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/conditioning.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/conditioning.py",
+      "sha256_original": "aad4414fece169ac8bef08317d2812fd2e50b1b1195bf14ea4872ea718bb241a",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/config.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/config.py",
+      "sha256_original": "b6dd756b0b23a3adfb7885cd7f837e975ab6472800e60e7071ab276148ff557e",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/evidence.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/evidence.py",
+      "sha256_original": "6b0548474403bb8b24f621a4aa0fdd8efd6e417dce884b461ff3aad88a8343ab",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/features.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/features.py",
+      "sha256_original": "cd70fcc5357cd369cd7383b8d61ab88a6ef425d18917738481a16c4d69ebb07f",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/inference_v3.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/inference_v3.py",
+      "sha256_original": "a9681e9ee802b8248a8f5ad674b99af5f8a63e208747ea1a819543c3392a716a",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/model_v3.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/model_v3.py",
+      "sha256_original": "ccae67456470dbf18d841f0b50b5fe5083209c76bec997a1b2a24cbfc25dd2fe",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/online_v4.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/online_v4.py",
+      "sha256_original": "40e5c9dbcfc1500a1040831a1b0929a06ba3aec69fea7b8da1a0c96a088753bd",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "piaoyi_model/policy_adapter_v3.py",
+      "source_project": "lun",
+      "source_path": "piaoyi_model/policy_adapter_v3.py",
+      "sha256_original": "d1ccc124f69d81db664e21b3268cdb0a2503451d7906c44834ae5cbe537d78fc",
+      "role": "shared_dependency"
+    },
+    {
+      "path": "scripts/evaluate_cfm.py",
+      "source_project": "lun",
+      "source_path": "scripts/evaluate_cfm.py",
+      "sha256_original": "d78eb449ad37f1e1036a40f7a5ddf1cd88fe8b1289b242dfa47f09d44dcd880c",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/evaluate_ppo.py",
+      "source_project": "lun",
+      "source_path": "scripts/evaluate_ppo.py",
+      "sha256_original": "57723293c68076c73bd753d2fa1285d717215cb5966b54440bef085b6e92ead0",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/evaluate_ppo_v4.py",
+      "source_project": "lun",
+      "source_path": "scripts/evaluate_ppo_v4.py",
+      "sha256_original": "3c1f9c9cca4dbb399045d85f492eb65e38d0e19e01fbb46871b425bf787c750c",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/train_cfm.py",
+      "source_project": "lun",
+      "source_path": "scripts/train_cfm.py",
+      "sha256_original": "7d9c4538f521905da8ac6f8aa0d825d3749bf21c5903f92232cc483e16ae2d26",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/train_joint.py",
+      "source_project": "lun",
+      "source_path": "scripts/train_joint.py",
+      "sha256_original": "5d3fad249ac1fcaec1b19ec67df1a347ca5baaf774e1a3ca0d561a2edd0da25e",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/train_ppo.py",
+      "source_project": "lun",
+      "source_path": "scripts/train_ppo.py",
+      "sha256_original": "8f9fd07dc9286a06f42a540972864d45f14bb67ef039089502906dcb09cf5907",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/train_ppo_v4.py",
+      "source_project": "lun",
+      "source_path": "scripts/train_ppo_v4.py",
+      "sha256_original": "3dbd23c29e109c65ee0a81e8dc69c299dfe6d115b1d603bb8f3d6dbdf30e1b89",
+      "role": "primary"
+    },
+    {
+      "path": "scripts/train_world_model.py",
+      "source_project": "lun",
+      "source_path": "scripts/train_world_model.py",
+      "sha256_original": "9f4388db9bb9f99d86822a39ec15453af4000e3bd649497ca5f269ba6681dc63",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_cfm.py",
+      "source_project": "lun",
+      "source_path": "tests/test_cfm.py",
+      "sha256_original": "5a5945afed44b18862703b13f60e2eef9724f6f717ce64aac2869ff76d4e280b",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_config.py",
+      "source_project": "lun",
+      "source_path": "tests/test_config.py",
+      "sha256_original": "dda9061e48d0089bd5e51f91bce4998985b8adc80f7f490bc4f14ca776348128",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_perception.py",
+      "source_project": "lun",
+      "source_path": "tests/test_perception.py",
+      "sha256_original": "029c690ab1c0a27824c7ca3f1609effc6c503e096526ba8217a4fd0704c6121f",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_rewards.py",
+      "source_project": "lun",
+      "source_path": "tests/test_rewards.py",
+      "sha256_original": "dee6025f87e7bad8f3913fd0e00b5f3c2dc43aac6ceff38a70ace7a7b7931758",
+      "role": "primary"
+    },
+    {
+      "path": "tests/test_world_model.py",
+      "source_project": "lun",
+      "source_path": "tests/test_world_model.py",
+      "sha256_original": "cfdeb6386d61ca94570c1e94c27606c6aa9dc7a08f005c07273a3041141f40ff",
+      "role": "primary"
+    }
+  ],
+  "portability_edits": [],
+  "note": "Source hashes refer to original files before export-only path edits. Generated publication files are additional."
+}

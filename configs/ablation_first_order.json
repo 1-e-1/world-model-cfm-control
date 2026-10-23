@@ -1,0 +1,12 @@
+{
+  "name": "ablation_first_order",
+  "cfm": {
+    "dynamics_order": 1,
+    "solver": "euler",
+    "ode_steps": 16
+  },
+  "cfm_loss": {
+    "terminal_velocity": 0.0,
+    "terminal_acceleration": 0.0
+  }
+}

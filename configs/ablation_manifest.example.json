@@ -1,0 +1,19 @@
+{
+  "experiments": [
+    {
+      "name": "second_order_full",
+      "config": "configs/base.json",
+      "cfm_checkpoint": "checkpoints/cfm/best.pt",
+      "belief_checkpoint": "checkpoints/world/best.pt",
+      "ppo_checkpoint": "logs/rsl_rl/codex_zbot_active_vision/RUN/model_499.pt"
+    },
+    {
+      "name": "coverage_only",
+      "config": "configs/ablation_coverage_only.json",
+      "cfm_checkpoint": "checkpoints/cfm/best.pt",
+      "belief_checkpoint": "checkpoints/world/best.pt",
+      "ppo_checkpoint": "logs/rsl_rl/codex_zbot_active_vision/COVERAGE_RUN/model_499.pt"
+    }
+  ]
+}
+

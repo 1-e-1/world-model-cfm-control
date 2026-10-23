@@ -1,0 +1,20 @@
+{
+  "allocation_date": "2026-09-10",
+  "status": "prespecified_not_yet_generated_or_evaluated",
+  "seeds": [82001,82002,82003,82004,82005,82006,82007,82008,82009,82010,82011,82012,82013,82014,82015,82016,82017,82018,82019,82020,82021,82022,82023,82024],
+  "modes": ["set", "pose", "hold"],
+  "initial_frames": 732,
+  "normal_motion_clock_gate": "Both motion and monotonic-wall exposure age <= 0.25 s; missing/failed independent recorded-clock audit prevents whole-task success in final statistics",
+  "sensing_rescan_budget": "At most six accepted rescan proposals per observed object, including incoming handover; no same-task reset; maximum eight object cycles; all modes use the same rule",
+  "postprocessing": "Independent geometry and wrench audits per trial, retained raw-clock audits, final-state broad/local surface and unsafe-free probes, then scene-paired statistics; commissioning failures remain failures",
+  "scene_admission": "None; generation, commissioning and execution failures remain in denominator",
+  "primary_endpoints": ["independently_audited_whole_scene_success", "common_success_normalized_mean_square_reaction_set_versus_hold"],
+  "reaction_normalization": {"force_N": 0.35, "torque_Nm": 0.15},
+  "secondary_endpoints": ["set_versus_pose", "separate_force_and_torque_RMS_peaks_and_window_impulses", "placement_error", "map_precision_and_coverage", "wall_clock_timing"],
+  "sample_size_rationale": "24 independent scenes for a bounded simulation feasibility and paired-effect estimation study, not a powered superiority test. A perfect 24/24 rate still has a 95% Wilson lower limit near 0.862; wide intervals and discordant outcomes must be retained.",
+  "policy_order": "Cyclic rotation by scene seed modulo number of policies",
+  "resampling_unit": "scene, not frame or control tick",
+  "failed_trial_cost": "Never assign zero full-task cost; common-success conditional effects and all-attempt failures reported separately",
+  "source_rule": "Freeze before the batch; no tuning or code changes during the batch. Any later algorithm tuning makes these scenes development data, requiring a new holdout allocation.",
+  "hardware": false
+}

@@ -1,0 +1,18 @@
+{
+  "model": "Intel RealSense D435i",
+  "calibration_status": "NOMINAL_SIMULATION_ONLY",
+  "depth": {"width": 848, "height": 480, "fps": 30, "hfov_deg": 87.0, "vfov_deg": 58.0},
+  "color": {"width": 1280, "height": 720, "fps": 30, "hfov_deg": 69.0, "vfov_deg": 42.0},
+  "stereo_baseline_m": 0.05,
+  "color_origin_in_depth_gl_m": [-0.015, 0.0, 0.0],
+  "hardware_min_z_this_profile_m_approx": 0.195,
+  "valid_depth_range_m": [0.30, 2.0],
+  "target_standoff_m": [0.45, 1.20],
+  "preferred_standoff_m": 0.8,
+  "nominal_flange_to_depth_gl": [[1,0,0,0],[0,-1,0,0],[0,0,-1,0.09288],[0,0,0,1]],
+  "simulation_noise": {"floor_sigma_m": 0.0005, "disparity_sigma_px": 0.04, "dropout_probability": 0.005, "stereo_consistency_m": 0.003},
+  "minimum_roi_valid_ratio": 0.08,
+  "workspace_look_at_m": [0.55,-0.2,0.815],
+  "view_candidates_m": [[0.60,0.45,1.20],[0.55,0.55,1.10],[0.35,0.70,1.05]],
+  "notes": "FOV/extrinsics approximate, not a per-unit calibration. Noise is a tunable engineering stress model, not a factory accuracy guarantee. No IMU dead-reckoning. Flange mounting offset must be measured on hardware. Depth native FOV is retained; RGB is projected into depth, not vice versa."
+}

@@ -1,0 +1,29 @@
+{
+  "project_root": ".",
+  "cfm": {
+    "architecture": "SecondOrderCFM",
+    "config": "configs/formal_v1.json",
+    "checkpoint": "checkpoints/formal_cfm_v1/best.pt",
+    "world_checkpoint": "checkpoints/formal_world_v1/best.pt",
+    "ppo_checkpoint": "checkpoints/formal_ppo_v1/best.pt",
+    "training_data": "data/sequences_v1"
+  },
+  "drifting": {
+    "architecture": "V7 first-order, v3_spatiotemporal core",
+    "config": "piaoyi_model/configs/occupancy_drifting_v7_partial_visibility.json",
+    "checkpoint": "checkpoints/drifting_v7/best.pt",
+    "training_data": "data/sequences_v7_partial_visibility_formal",
+    "controller_config": "configs/formal_v4.json",
+    "world_checkpoint": "checkpoints/drifting_controller/world.pt",
+    "ppo_checkpoint": "checkpoints/drifting_controller/ppo.pt",
+    "controller_status": "V6 controller weights retained; V7 closed-loop performance NOT validated"
+  },
+  "non_neural": {
+    "architecture": "PlanningTSDF v3",
+    "config_class": "classical_fusion.planning_map.PlanningMapConfig",
+    "checkpoint": null,
+    "evaluation": "reports/planning_v3/planning_map_v3_holdout/evaluation.json",
+    "camera_config": "configs/camera_512_f110_integer_pixels.json",
+    "native_sample": "data/planning_shapes_512_full_depth"
+  }
+}

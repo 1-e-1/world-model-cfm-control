@@ -1,0 +1,7 @@
+{
+  "intrinsics": [[179.25314331054688, 0.0, 255.5], [0.0, 179.25314331054688, 255.5], [0.0, 0.0, 1.0]],
+  "image_shape": [512, 512],
+  "source_audit": "classical_fusion/outputs/principal_point_512_audit.json",
+  "calibration_scope": "native 512-square renderer, 110-degree requested lens, focal_length=24; integer-index pixels",
+  "warning": "Verified with three independent noiseless floor poses, not a real sensor calibration. Do not apply to other lens/resolution profiles."
+}

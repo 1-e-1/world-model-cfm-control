@@ -1,0 +1,8 @@
+numpy
+scipy
+torch
+PyYAML
+matplotlib
+Pillow
+threadpoolctl
+pytest
